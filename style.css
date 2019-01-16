@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso'), url('miso.woff') format('woff');
+}
+@font-face {
+    font-family: 'Miso Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso Light'), url('./assets/fonts/miso-light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Miso Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miso Bold'), url('./assets/fonts/miso-bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Lato Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lato Light'), url('./assets/fonts/Lato/Lato-Light.woff') format('woff');
+}
+body {
+    margin: 0;
+    padding: 360px 0;
+}
+body * {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-family: 'Miso Bold';
+    font-size: 60px;
+    color: #333333;
+}
+h2 {
+    margin-top: 48px;
+    text-align: center;
+    font-family: 'Miso Bold';
+    font-size: 48px;
+    color: #02995b;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 100%;
+}
+.flex-container {
+    margin: 0 auto;
+    display: flex;
+    width: 1191px;
+    justify-content: space-around;
+    background-color: #fdde7e;
+}
+.flex-item {
+    position: relative;
+    margin: 80px 30px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 33.3%;
+    background-color: #ffffff;
+    box-shadow: 1px 9px 0px -6px rgba(137, 140, 156, 0.28);
+}
+.big-item {
+    margin: 45px 15px;
+}
+.smoke img {
+    position: absolute;
+    top: 120px;
+    left: 148px;
+    width: 49px;
+    height: 46px;
+}
+.cup img {
+    position: absolute;
+    top: 178px;
+    left: 118px;
+    width: 135px;
+    height: 77px;
+}
+.coffee-bean {
+    position: absolute;
+    top: 204px;
+    left: 153px;
+}
+.bottom-text {
+    text-align: center;
+    bottom: 38px;
+    font-family: 'Lato Light';
+}
+.margin-left {
+    margin: 80px 15px 80px 30px;
+}
+.margin-right {
+    margin: 80px 30px 80px 15px;
+}
