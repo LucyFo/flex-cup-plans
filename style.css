@@ -63,6 +63,7 @@ img {
     width: 33.3%;
     background-color: #ffffff;
     box-shadow: 1px 9px 0px -6px rgba(137, 140, 156, 0.28);
+    border-radius: 5px;
 }
 .big-item {
     margin: 45px 15px;
